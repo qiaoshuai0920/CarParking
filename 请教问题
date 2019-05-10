@@ -1,0 +1,9 @@
+能麻烦详细说一下车牌识别这地方吗 能看出来您使用的OpenCV javacv，我能运行起来您的项目，图片识别那个功能提示:The SVM should be trained first in function CvSVM::predict
+
+我仔细看了您的训练说明：
+要训练时，注意看src/train下的两个cpp文件 （这俩文件好像没有）
+
+数据在data文件夹下，svm对应Plate_detect，ann对应chars_recognise。要先解压，然后放置到正确的路径下，或者
+你可以修改cpp文件中的文件夹路径。
+谢谢
+
